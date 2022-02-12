@@ -1,3 +1,28 @@
+.mapDiv {
+  width: 500px;
+  height: 500px;
+  float: left;
+}
+#wheelBox {
+  background-color: yellow;
+  float: left;
+}
+
+#myMap {
+  background-color: yellow;
+  float: left;
+}
+
+.toolBox1 {
+  background-color: pink;
+  float: left;
+}
+
+.inputForm {
+  background-color: yellow;
+  float: left;
+}
+
 .App {
   text-align: center;
 }
