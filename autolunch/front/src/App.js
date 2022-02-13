@@ -20,8 +20,13 @@ function App() {
       <div id="map" className="mapDiv">
         aaaaaaaaaaaaaaaaaa
       </div>*/}
+      {<div id="wheelBox"></div>}
+      
       <FoodMap></FoodMap>
-      <div id="wheelBox" style={wheelBoxStyle}></div>
+      {/*<div id="wheelBox" style={wheelBoxStyle}></div>*/}
+
+     
+     
     </div>
   );
 }

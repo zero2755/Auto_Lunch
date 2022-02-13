@@ -59,8 +59,8 @@ const FoodMapFn = ({ searchPlace, DataList, getDataList }) => {
       style={{
         width: "500px",
         height: "500px",
-        float: "left",
-        display: "inline-block;",
+        float: "center",
+        display: "inline-block"
       }}
     ></div>
   );
