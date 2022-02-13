@@ -1,32 +1,32 @@
 .mapDiv {
   width: 500px;
   height: 500px;
-  float: left;
+  float: center;
 }
 #wheelBox {
   background-color: yellow;
-  float: left;
+  float: center;
 }
 
 #myMap {
   background-color: yellow;
-  float: left;
+  float: center;
 }
 
 .toolBox1 {
   background-color: pink;
-  float: left;
+  float: right;
 }
 
 .inputForm {
-  background-color: yellow;
-  float: left;
+  background-color: gray;
+  float: center;
 }
 
 .App {
   text-align: center;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -61,3 +61,4 @@
     transform: rotate(360deg);
   }
 }
+*/

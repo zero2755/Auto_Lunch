@@ -99,6 +99,7 @@ const wheelStyle = {
   marginLeft: "10%",
   marginTop: "10%",
   float: "right",
+ // float:"center",
 };
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -167,6 +168,8 @@ const WheelComponent = ({ DataList }) => {
           SPIN
         </button>*/}
 
+  
+
         <div className="toolBox1">
           <button
             onClick={() => {
@@ -195,6 +198,8 @@ const WheelComponent = ({ DataList }) => {
             리셋
           </button>
         </div>
+        
+        
       </div>
     </>
   );

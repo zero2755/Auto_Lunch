@@ -35,6 +35,10 @@ function FoodMap() {
 
   return (
     <>
+    {
+      /*위치 변경*/
+    }
+    <WheelComponent DataList={DataList}></WheelComponent>
       <form className="inputForm" onSubmit={handleSubmit}>
         <div>
           <input
@@ -48,12 +52,18 @@ function FoodMap() {
           </button>
         </div>
       </form>
+      
       <FoodMapFn
         searchPlace={Place}
         DataList={DataList}
         getDataList={getDataList}
       />
-      <WheelComponent DataList={DataList}></WheelComponent>
+
+      {
+        /* 원 위치 
+        <WheelComponent DataList={DataList}></WheelComponent> */
+      }
+      
     </>
   );
 }
